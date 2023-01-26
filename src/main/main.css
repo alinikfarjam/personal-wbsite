@@ -1,0 +1,9 @@
+.Main_Container {
+  width: 60%;
+  background-color: blueviolet;
+}
+@media screen and (max-width: 985px) {
+  .Main_Container {
+    width: 95%;
+  }
+}

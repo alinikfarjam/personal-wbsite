@@ -1,0 +1,13 @@
+.Layout_Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  direction: rtl;
+  margin-top: 60px;
+}
+@media screen and (max-width: 985px) {
+  .Layout_Container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
