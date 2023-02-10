@@ -5,9 +5,11 @@
   direction: rtl;
   margin-top: 60px;
 }
-@media screen and (max-width: 985px) {
+
+@media screen and (max-width: 1170px) {
   .Layout_Container {
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
 }

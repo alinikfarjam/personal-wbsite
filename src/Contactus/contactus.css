@@ -1,0 +1,64 @@
+.Contactus_container {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Contactus_container > p {
+  font-size: 20px;
+  border-bottom: #417c79c9 solid 5px;
+  padding-bottom: 8px;
+  border-radius: 2px;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+.Contactus_container_items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Contactus_container_item {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  justify-content: space-evenly;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.Contactus_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Contactus_text > p {
+  color: rgb(66, 63, 63);
+}
+.Contactus_text > p:nth-of-type(2) {
+  font-size: 14px;
+}
+.Contactus_icon {
+  font-size: 27px;
+  height: 50px;
+  color: #417c79c9;
+}
+.Container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+.Container2 > p {
+  margin-right: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 780px) {
+  .Contactus_container_items {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

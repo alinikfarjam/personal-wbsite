@@ -1,18 +1,30 @@
 .Sidebar_Container {
-  width: 22%;
   background-color: #417c79;
   padding: 10px;
-  border-radius: 12px;
-  height: 80vh;
+  border-radius: 15px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-right: 100px;
+  position: sticky;
+  width: 20vw;
+  position: -webkit-sticky;
+  top: 30px;
+  right: 0;
 }
-.Sidebar_up_section {
-  /* background-color: brown; */
+.Sidebar {
+  width: fit-content;
+  height: 3150px;
 }
+
 .Sidebar_up_section > figure > img {
   width: 100px;
+}
+
+.Sidebar_up_section > figure {
+  display: flex;
+  align-items: center;
 }
 .Sidebar_up_section > div > p {
   color: white;
@@ -29,16 +41,73 @@
   margin-top: 7px;
 }
 .Sidebar_mid_section > nav > ul > li {
-  color: rgb(224, 217, 217);
+  cursor: pointer;
   margin-top: 14px;
+}
+.Sidebar_mid_section > nav > ul > li > a:hover {
+  margin-right: 10px;
+}
+.Sidebar_mid_section > nav > ul > li > a {
+  color: rgb(224, 217, 217);
+  transition: ease all 0.4s;
 }
 .Sidebar_mid_section {
   margin-right: 25px;
 }
-@media screen and (max-width: 985px) {
+.Sidebar_bottom_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Sidebar_bottom_section > div {
+  background-color: #8fc0a9;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 300px;
+  padding: 7px;
+  transition: all 0.3s ease;
+}
+.Sidebar_bottom_section > div:hover {
+  background-color: green;
+}
+.Sidebar_bottom_section > div > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sidebar_icon {
+  color: white;
+  font-size: 24px;
+}
+@media screen and (max-width: 1170px) {
   .Sidebar_Container {
     width: 95%;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-right: 0;
+    height: fit-content;
+    position: none;
+  }
+  .Sidebar_up_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Sidebar_up_section > div > p:nth-of-type(2) {
+    display: none;
+  }
+  .Sidebar_mid_section {
+    display: none;
+  }
+  .Sidebar_bottom_section {
+    display: none;
+  }
+  .Sidebar {
+    height: fit-content;
+    width: 100%;
+    margin-right: 5vw;
   }
 }
