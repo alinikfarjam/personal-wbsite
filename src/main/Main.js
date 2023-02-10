@@ -4,7 +4,6 @@ import Skill from "../my_skil/Skil";
 import Services from "../service/Services";
 import SampleWork from "../sample-work/SampleWork";
 import ContactUs from "../Contactus/ContactUs";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Main = () => {
     return (
