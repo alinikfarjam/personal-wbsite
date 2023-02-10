@@ -28,7 +28,6 @@
 .SampleWork_container_items {
   width: 100%;
   height: fit-content;
-  background-color: aqua;
   padding: 10px;
   transition: ease 0.5s all;
   overflow: hidden;
