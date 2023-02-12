@@ -87,7 +87,7 @@
     margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 0;
-    height: fit-content;
+    min-height: fit-content;
     position: none;
   }
   .Sidebar_up_section {
@@ -106,8 +106,9 @@
     display: none;
   }
   .Sidebar {
-    height: fit-content;
+    height: auto;
     width: 100%;
     margin-right: 5vw;
+    z-index: 10;
   }
 }

@@ -11,16 +11,16 @@ const SampleWork = () => {
             <section className="SampleWork_container_2">
                 <nav >
                     <ul className="SampleWork_nav">
-                        <NavLink className={({ isActive }) => isActive ? 'SampleWork_activeLink' : 'Link'} to="/Phtoshop">فتوشاپ</NavLink>
                         <NavLink className={({ isActive }) => isActive ? 'SampleWork_activeLink' : 'Link'} to="/webSite">وب سایت</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'SampleWork_activeLink' : 'Link'} to="/Phtoshop">فتوشاپ</NavLink>
                         <NavLink className={({ isActive }) => isActive ? 'SampleWork_activeLink' : 'Link'} to="/flutter">موبایل</NavLink>
                     </ul>
                 </nav>
                 <div className="SampleWork_container_items">
 
                     <Routes>
-                        <Route path="*" element={<SamplePhotoShop />} />
-                        <Route path="/webSite" element={<SampleWebsite />} />
+                        <Route path="/Phtoshop" element={<SamplePhotoShop />} />
+                        <Route path="*" element={<SampleWebsite />} />
                         <Route path="/flutter" element={<SampleMobile />} />
                     </Routes>
                 </div>

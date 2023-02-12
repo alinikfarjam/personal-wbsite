@@ -16,7 +16,7 @@
 }
 .Contactus_container_items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -24,10 +24,11 @@
 .Contactus_container_item {
   display: flex;
   flex-direction: column;
-  width: 22%;
+  width: 170px;
   justify-content: space-evenly;
   height: fit-content;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 .Contactus_text {
   display: flex;
@@ -58,7 +59,7 @@
 }
 @media screen and (max-width: 780px) {
   .Contactus_container_items {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 }
