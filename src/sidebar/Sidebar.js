@@ -39,7 +39,7 @@ const Sidebar = () => {
                         <a href=""><FaTelegram className="Sidebar_icon"></FaTelegram></a>
                     </div>
                     <div>
-                        <a href=""><FaGithub className="Sidebar_icon"></FaGithub></a>
+                        <a href="https://github.com/alinikfarjam"><FaGithub className="Sidebar_icon"></FaGithub></a>
                     </div>
 
                 </section>
